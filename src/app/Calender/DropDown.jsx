@@ -63,9 +63,7 @@ export default function DropDown() {
             </MenuItems>
 
             <div className="">
-                <Button onClick={handleTaskButton} className="bg-blue-500 rounded-lg p-2 m-2">
-                    Add task
-                </Button>
+                <Button className="bg-blue-500 rounded-lg p-2 m-2">Add task</Button>
             </div>
         </Menu>
     );
